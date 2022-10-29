@@ -1,17 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap');
 
-:root {
-    --primary-color: crimson;
-}
-
 body {
     font-family: Montserrat;
-
+    
 }
 
 #title {
     color: white;
-    background-color: var(--primary-color);
+    background-color: #ff4c68;
     width: 100%;
 }
 
@@ -47,7 +43,7 @@ h1 {
     padding: 5% 7%;
     transform: rotate(6deg);
     position: relative;
-
+   
 
 
 }
@@ -67,7 +63,7 @@ h1 {
 
 .fa-solid {
     margin-bottom: 1rem;
-    color: var(--primary-color);
+    color: #ff4c68;
 }
 
 h3 {
@@ -83,7 +79,7 @@ h3 {
 #testimonials {
     padding: 7% 15%;
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: #ff4c68;
 }
 
 h2 {
@@ -103,7 +99,7 @@ h2 {
 }
 
 #press {
-    background-color: var(--primary-color);
+    background-color: #ff4c68;
     text-align: center;
     padding-bottom: 1.5%;
 }
@@ -133,38 +129,32 @@ h2 {
 .pricing-column {
     padding: 3% 2%;
 }
-
 @media (max-width:989px) {
 
 
-    #title {
+    #title{
         text-align: center;
     }
-
-    .title-pic {
+    .title-pic{
         transform: rotate(0);
     }
-
+    
 }
-
-#cta {
+#cta{
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: #ff4c68;
     padding: 8% 15%;
 }
-
-.footer-text {
-    margin-top: 2%;
+.footer-text{
+    margin-top:2%;
     padding: 3%;
     font-family: Montserrat-Black;
     color: white;
 }
-
-#footer {
-    padding: 6% 15%;
+#footer{
+    padding:6% 15%;
     text-align: center;
 }
-
-.social-icon {
-    padding: 1.5%;
+.social-icon{
+    padding:1.5%;
 }
